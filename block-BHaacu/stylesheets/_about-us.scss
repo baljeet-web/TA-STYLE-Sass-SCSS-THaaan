@@ -1,0 +1,68 @@
+
+// / About Us Section
+.about-us-section{
+    background-color: $secondary;
+    padding: 3rem 0;
+}
+.about-us-heading{
+    color: $primary;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.section-preface{
+    color: $secondary;
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+// Industry Leader Section
+.about-industry-image{
+    object-fit: contain;
+}
+// Mission Vision Section
+.mission-heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    padding: 0.8rem 0;
+}
+.mission-description{
+    color: $tertiary;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+// Our Team Section
+.our-team-section,.our-products-section,.address-phone-email-section{
+    background-color: $ghost-white;
+}
+.team-card{
+    margin: 2.6rem 0;
+}
+.team-img-desc-wrapper{
+    box-shadow: 1px 1px 6px gainsboro;
+}
+.team-img-desc-wrapper h3,.contact-wrapper h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: $light-black;
+    text-align: center;
+    padding: 1rem 0 0.4rem 0;
+}
+.team-img-desc-wrapper h6{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: $secondary;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.team-img-desc-wrapper .team-image{
+    width: 100%;
+    object-fit: cover;
+}
+// Get Best Solution section
+.get-best-solution-section .industry-para{
+    padding: 0 8rem;
+    margin-bottom: 1.6rem;
+}

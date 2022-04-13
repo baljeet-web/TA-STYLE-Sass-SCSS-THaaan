@@ -1,0 +1,206 @@
+.enquiry-contact span{
+    padding-right: 1.5rem;
+}
+.enquiry{
+    padding: 0.6rem 0;
+    color: $quaternary;
+    background-color: $secondary;
+}
+.header{
+    font-size: 0.8rem;
+}
+.email-address{
+    color: $quaternary;
+}
+.enquiry-links li a{
+    margin-left: 1rem;
+    color: $quaternary;
+}
+.bottom-header{
+    background-color: $primary;
+    // padding: 0.8rem 0;
+}
+.header-heading{
+    font-size: 2rem;
+    font-weight: 900;
+    color: $secondary;
+}
+.header-heading span{
+    color: $tertiary;
+    padding-left: 0.2rem;
+}
+.page-links ul li{
+    height: 100%;
+}
+.page-links li a{
+    color: $tertiary;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1.6rem;
+    &:hover{
+        // padding: 0.8rem 0.4rem;
+        // background-color: $secondary;
+        // color: $quaternary;
+        text-decoration: underline;
+        text-decoration-color: $secondary;
+    }
+}
+
+.sub-menu-parent{
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    background-color: $primary;
+    box-shadow: 0 3px 8px rgba($color: #000000, $alpha: 0.3);
+    width: 150px;
+    text-align: left;
+    left: 25%;
+    top: 100%;
+    display: none;
+}
+.sub-menu li a{
+    margin: 0.4rem;
+}
+.sub-menu-parent:hover .sub-menu{
+    display: inline-block;
+}
+
+// Hero Section
+.hero-heading{
+    font-weight: 900;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    padding: 10rem 20rem 1rem 0;
+    line-height: 1.2;
+    color: #19191a;
+}
+.hero-slogan{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: $tertiary;
+    margin-bottom: 1.6rem;
+}
+.hero{
+    // padding-top: 5rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 85vh;
+    background: url("../media/banner-1.jpg") no-repeat center;
+}
+
+// Services Section
+.service-types{
+    border: 1px solid rgb(195, 187, 187);
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 12px;
+}
+.service-heading{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $light-black;
+    padding: 1rem 0;
+}
+.service-types .btn{
+    margin-top: 2rem;
+}
+.service-image{
+    color: $secondary;
+    filter: opacity(0.4) drop-shadow(0 0 0 $secondary) saturate(1000%);
+}
+
+// Get Solutions section
+.get-solution-section{
+    background-color: $ghost-white;
+}
+.get-solution-section .section-description{
+    margin: 0 10rem;
+}
+.get-solution-section .btn, .top-consulting-section .btn{
+    margin-top: 2rem;
+}
+// Top Consulting section
+.consulting-content .section-heading{
+    padding: 1rem 2rem;
+}
+.consulting-logo{
+    filter: opacity(0.4) drop-shadow(0 0 0 $secondary) saturate(1000%);
+    margin-bottom: 1rem;
+}
+.consulting-image, .industry-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+// Request Quote Section
+.request-quote-section,.grab-deal-section{
+    background-color: $secondary;
+    padding: 2rem 0;
+}
+.quote-heading{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fae8ec;
+}
+.quote-para{
+    color: #df9eb0;
+    font-size: 1rem;
+    padding-top: 0.4rem;
+}
+//Industry Leader Section
+.industry-para{
+    font-size: 1rem;
+    color: $light-gray;
+    padding-top: 1.2rem;
+    line-height: 1.7;
+}
+// Our Clients section
+.our-clients-section{
+    background-color: $ghost-white;
+}
+.clients{
+    filter: grayscale(100%) opacity(30%);
+}
+// Footer
+.footer{
+    background-color: $dark-slate-gray;
+}
+.footer .footer-contact span{
+    padding-left: 0.6rem;
+    color: $light-gray;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.footer-address i{
+    color: $footer-gray;
+    margin-bottom: 1rem;
+}
+.site-links{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: $footer-gray;
+    line-height: 2.2;
+}
+.footer-enquiry li a{
+    color: $footer-gray;
+    margin: 0 1rem 0 0;
+}
+.footer-credits{
+    margin-top: 2rem;
+}
+.credits-heading{
+    color: rgb(211, 210, 210);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.credits-heading span{
+    color: $footer-gray;
+}
+.copyright{
+    font-size: 0.8rem;
+    color: $footer-gray;
+    line-height: 2;
+}
