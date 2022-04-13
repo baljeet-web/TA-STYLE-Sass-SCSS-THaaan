@@ -1,0 +1,48 @@
+// Address-phone-email Section
+.address-phone-email-section .industry-para{
+    padding: 0 5rem;
+}
+.contact-wrapper{
+    margin-top: 4rem;
+}
+.circle{
+    background-color: rgb(224, 221, 221);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.circle-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem 0;
+}
+.contact-icon{
+    font-size: 2rem;
+    color: #dc3e45;
+}
+// Let Us Know Section
+.let-us-know-section .industry-para{
+    padding: 0 6rem;
+}
+.let-us-know-wrapper{
+    margin-top: 4rem;
+}
+.form .fullName,.form .email,.form .message{
+    width: 100%;
+    box-shadow: none;
+    margin-bottom: 2rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-family: $font-family;
+    border-radius: 6px;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
