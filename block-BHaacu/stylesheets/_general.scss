@@ -1,0 +1,158 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.4rem;
+}
+body{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: $font-family;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    // border: 1px solid yellow;
+}
+.tac{
+    text-align: center;
+}
+
+// Flex
+.flex{
+    display: flex;
+}
+.jsb{
+    justify-content: space-between;
+}
+.jse{
+    justify-content: space-evenly;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.ais{
+    align-items: stretch;
+}
+.aib{
+    align-items: baseline;
+}
+.flex-40{
+    flex: 0 1 40%;
+    // border: 1px solid black;
+}
+.flex-45{
+    flex: 0 1 45%;
+    // border: 1px solid black;
+}
+.flex-55{
+    flex: 0 1 55%;
+    // border: 1px solid black;
+}
+.flex-50{
+    flex: 0 1 50%;
+    // border: 1px solid black;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-30{
+    flex:  0 1 30%;
+    // border: 1px solid black;
+}
+.flex-70{
+    flex: 0 1 70%;
+    // border: 1px solid black;
+}
+.flex-20{
+    flex: 0 1 20%;
+    // border: 1px solid black;
+}
+.flex-25{
+    flex: 0 1 25%;
+    // border: 1px solid black;
+}
+.flex-15{
+    flex: 0 1 15%;
+    // border: 1px solid purple;
+}
+.flex-80{
+    flex: 0 1 80%;
+    // border: 1px solid purple;
+}
+.flex-23{
+    flex: 0 1 23%;
+    // border: 1px solid black;
+}
+.flex-column{
+    flex-direction: column;
+}
+// Buttons
+.btn{
+    font-size: 0.8rem;
+    font-weight: 400;
+    box-shadow: none;
+    border: 0;
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+}
+.btn-primary{
+    background-color: $secondary;
+    color: $quaternary;
+}
+.btn-secondary{
+    background-color: $quaternary;
+    color: $secondary;
+    border: 1px solid $secondary;
+}
+.btn-tertiary{
+    background-color: $secondary;
+    color: $primary;
+    border: 1px solid $primary;
+}
+// Section
+.section-padding-top{
+    padding-top: 7rem;
+}
+.section-padding-bottom{
+    padding-bottom: 7rem;
+}
+.section-heading{
+    font-weight: 900;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #19191a;
+    padding-bottom: 1rem;
+}
+.section-description{
+    color: $light-gray;
+    font-size: 1.2rem;
+}
+.general-para{
+    color: $light-gray;
+    font-size: 1rem;
+}
+.footer-heading{
+    font-size: 1.2rem;
+    color: rgb(211, 210, 210);
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+}
